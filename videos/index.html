@@ -1,1 +1,95 @@
-<html>test3</html>
+<html>
+  
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+</head>
+  
+  <div id="particles-js">
+
+  <div class="content"> 
+   <div class="person">
+   <img alt="Vibe with" src="https://i.imgur.com/wNINxfK.png" align="middle">   
+ </div>
+      <h1>
+        <span class="site-title">{{site.username}}</span>
+        <span class="site-description">{{site.user_title}}</span>
+      </h1>
+      <div class="icons-header">
+        <a aria-label="My Youtube" href="https://www.youtube.com/user/Pops32092/videos"><i class="icon fa fa-youtube"></i></a>
+        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/vibewithelias"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/vibewithelias"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
+        <a aria-label="My Soundcloud" target="_blank" href="https://soundcloud.com/vibewithelias"><i class="icon fa fa-soundcloud" aria-hidden="true"></i></a>
+        <a aria-label="My Instagram" target="_blank" href="https://instagram.com/vibewithelias"><i class="icon fa fa-instagram" aria-hidden="true"></i>
+</a>
+      </div>
+      <a class="link" href="#about" data-scroll></a>
+      <a class="link" href="#projects" data-scroll></a>
+  </div>
+  
+ 
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
+<br>
+<br>
+
+<style>
+       
+       .person img {
+    width: 350px;
+    height: 270px;
+    border-radius: 100%;
+    margin-bottom: 0px;
+}
+  
+  
+      .down {
+    color: #fff;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    margin-bottom: -45px;
+    font-size: 30px;
+}
+  
+  
+  </style>
+  
+  <div class="container">
+  <div class="user-details">
+	    
+    <h3>Music</h3>
+  </div>
+	
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" style="text-shadow: 2px 2px rgba(0, 0, 0, 0.75);">
+                
+<li>
+                    <a href="/videos/">Videos</a>
+                </li>
+
+	</div>
+	
+	
+	
+  <div>
+    
+    
+
+
+
+</html>
